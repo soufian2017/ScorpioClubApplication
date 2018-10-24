@@ -175,4 +175,6 @@
 
         "we take great pride in the sense of history, community and service that we provide.\n"
     </string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 </resources>

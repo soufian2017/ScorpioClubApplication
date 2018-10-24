@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         nav_view.setNavigationItemSelectedListener(this)
     }
 
-    override fun onRestart() {
+    /*override fun onRestart() {
         super.onRestart()
         setFirstLayout()
     }
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onResume() {
         super.onResume()
         setFirstLayout()
-    }
+    }*/
 
     override fun onBackPressed() {
 
@@ -112,6 +112,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     private fun setFirstLayout(){
+
         var frag: Fragment = Home()
         var fragmentManager = supportFragmentManager
         fragmentManager
